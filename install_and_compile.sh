@@ -8,9 +8,9 @@ sudo apt-get install -y git;
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf;
 ~/.fzf/install --all;
 
-echo "alias python='python3'" >> ~/.profile;
-echo "alias pip='pip3'" >> ~/.profile;
-source ~/.profile;
+echo "alias python='python3'" >> ~/.bashrc;
+echo "alias pip='pip3'" >> ~/.bashrc;
+source ~/.bashrc;
 sudo python get-pip.py;
 sudo rm -rf ~/get-pip.py ~/.cache/pip;
 
