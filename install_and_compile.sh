@@ -20,5 +20,4 @@ sudo apt-get install -y libjasper-dev;
 sudo apt-get install -y libqtgui4;
 sudo apt-get install -y python3-pyqt5;
 sudo apt-get install -y libqt4-test;
-echo 'import cv2';
-print(cv2.__version__)' | python;
+echo 'import cv2; print(cv2.__version__)' | python;
