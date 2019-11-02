@@ -14,10 +14,11 @@ source ~/.bashrc;
 sudo python get-pip.py;
 sudo rm -rf ~/get-pip.py ~/.cache/pip;
 
-pip3 install opencv-python;
+pip install opencv-python;
 sudo apt-get install -y libatlas-base-dev;
 sudo apt-get install -y libjasper-dev;
 sudo apt-get install -y libqtgui4;
 sudo apt-get install -y python3-pyqt5;
 sudo apt-get install -y libqt4-test;
+pip install opencv-contrib-python;
 echo 'import cv2; print(cv2.__version__)' | python;
