@@ -20,5 +20,5 @@ sudo apt-get install -y libjasper-dev;
 sudo apt-get install -y libqtgui4;
 sudo apt-get install -y python3-pyqt5;
 sudo apt-get install -y libqt4-test;
-pip install opencv-contrib-python;
+pip install opencv-contrib-python==3.4.3.18; #https://github.com/piwheels/packages/issues/59
 echo 'import cv2; print(cv2.__version__)' | python;
